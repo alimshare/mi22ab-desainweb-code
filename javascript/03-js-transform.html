@@ -1,0 +1,18 @@
+<div id="kotak" 
+    onmouseover="perbesar()" 
+    onmouseout="perkecil()" 
+    style="width: 100px; height: 50px; color: white; background-color: black;" >
+    
+</div>
+
+<script>
+    function perbesar() {
+        document.getElementById("kotak").style.width = "200px";
+        document.getElementById("kotak").style.backgroundColor = "blue";
+    }
+
+    function perkecil() {
+        document.getElementById("kotak").style.width = "100px";
+        document.getElementById("kotak").style.backgroundColor = "black";
+    }
+</script>
